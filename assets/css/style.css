@@ -1,10 +1,14 @@
 body {
-    background-color: rgb(185, 191, 197);
+    background-color: rgb(68, 114, 160);
 }
 
 nav {
     border-bottom: 2px;
     border-bottom-color: darkgrey;
     border-bottom-style: solid;
+}
+
+main {
+    color: white;
 }
 
