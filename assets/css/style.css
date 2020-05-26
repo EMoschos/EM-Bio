@@ -25,3 +25,17 @@ div {
 h2 {
     font-size: 24px;
 }
+
+#sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-top-color: darkgrey;
+    border-top-style: solid;
+}
+
+small {
+    margin-right: 16px;
+}
