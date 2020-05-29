@@ -2,6 +2,14 @@
     background-color: rgb(68, 114, 160);
 } */
 
+.hero-image {
+    background-image: url("../pics/bg-POP-dark1.PNG"); /* The image used */
+    background-color: #525252;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
 nav {
     border-bottom: 2px;
     border-bottom-color: darkgrey;
@@ -42,11 +50,3 @@ h2 {
 small {
     margin-right: 16px; /*Used to provide a gap between name and icon links in footer */
 }
-
-.hero-image {
-    background-image: url("../pics/bg-POP-dark1.PNG"); /* The image used */
-    background-color: #525252;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
