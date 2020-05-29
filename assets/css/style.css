@@ -11,9 +11,10 @@ nav {
 
 main {
     color: rgb(255, 255, 255);
-    padding-bottom: 100px;
+    padding-bottom: 100px; /* used to ensure content appears from behind sticky-footer */
 }
 
+/* Used container small to acheive the desired responsiveness  */
 .container-sm {
     padding-bottom: 10px;
 }
@@ -26,6 +27,7 @@ h2 {
     font-size: 24px;
 }
 
+/* CSS used to ensure the footer was acting appropriately across viewports and looked the same as the navbar */
 #sticky-footer {
     position: fixed;
     bottom: 0;
@@ -38,7 +40,7 @@ h2 {
 }
 
 small {
-    margin-right: 16px;
+    margin-right: 16px; /*Used to provide a gap between name and icon links in footer */
 }
 
 .hero-image {
